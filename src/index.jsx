@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import {addBlog, removeBlog, updateBlog  } from '../src/myredux/action/action'
 import configureStore from './myredux/store/store';
 import App from './router/App';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 
 const mystore = configureStore()
 
