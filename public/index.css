@@ -2,6 +2,7 @@ body, * {
     box-sizing: border-box !important;
     list-style:  none !important;
     text-decoration: none !important; 
+    font-family: 'Outfit';
 }
 
 body {
@@ -11,4 +12,5 @@ body {
     overflow-x: hidden;
     margin: 0 !important; 
     padding: 0 !important;
+    
 }
