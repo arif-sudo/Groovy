@@ -1,5 +1,5 @@
 {
-  "homepage": "https://arif-sudo.github.io/Groovy", //http or https?
+  "homepage": "http://arif-sudo.github.io/Groovy", 
   "name": "groovy",
   "version": "0.1.0",
   "private": true,
