@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Groovy/static/css/main.293c332f.css",
+    "main.js": "/Groovy/static/js/main.846eefed.js",
+    "index.html": "/Groovy/index.html",
+    "main.293c332f.css.map": "/Groovy/static/css/main.293c332f.css.map",
+    "main.846eefed.js.map": "/Groovy/static/js/main.846eefed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.293c332f.css",
+    "static/js/main.846eefed.js"
+  ]
+}

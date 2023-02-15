@@ -1,0 +1,16 @@
+body, * {
+    box-sizing: border-box !important;
+    list-style:  none !important;
+    text-decoration: none !important; 
+    font-family: 'Outfit';
+}
+
+body {
+    background-color: #54CBCA !important;
+    background-image: url("https://themes.estudiopatagon.com/wordpress/groovy/wp-content/themes/groovy/assets/images/background-decoration.svg");
+    background-position: 20% center;
+    overflow-x: hidden;
+    margin: 0 !important; 
+    padding: 0 !important;
+    
+}
