@@ -1,9 +1,12 @@
 
-export const addBlog = ({title, desc}) => ({
+export const addBlog = ({title,img, date,header, desc}) => ({
     type: "ADD_BLOG",
     blog: {
         title,
         desc,
+        date,
+        img,
+        header,
         id: crypto.randomUUID()
     }
 })

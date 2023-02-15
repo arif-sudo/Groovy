@@ -108,7 +108,7 @@
 .parag:hover {
     box-shadow: 2px 2px;
     transition: 300ms;
-    transform: translateY(-3px);
+    transform: translate(-3px,-3px);
 }
 .parag p {
     color: black;
@@ -130,11 +130,13 @@
     bottom: 15px;
     right: 15px;
     font-size: 12px;  
+    box-shadow: 2px 2px;
+    transform: translate(-3px,-3px);
     transition: 300ms;
 }
 .continue:hover {
-    box-shadow: 2px 2px;
-    transform: translateY(-3px);
+    box-shadow: 0px 0px;
+    transform: translate(0px,0px);
     transition: 300ms;
 }
 .continue p {

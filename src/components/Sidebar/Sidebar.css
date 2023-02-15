@@ -1,0 +1,212 @@
+section{
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+    background-color: bisque;
+    width: 345px;
+    height: auto;
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid #333333;
+
+}
+.about {
+    width: 145px;
+    height: 35px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    border: 1px solid #333333;
+}
+.up {
+    display: flex;
+    margin: 10px 0;
+}
+.up img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #333333;
+    border-radius: 50%;
+}
+.up .menu {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.up .menu h5{
+    margin-bottom: 3px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.up .menu p {
+    color: #333333;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.sidebar_icon{
+    font-size: 18px;
+    margin-right: 13px;
+}
+#descript {
+    line-height: 180%;
+}
+
+/* first section end*/
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+.menu .winner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu .winner .img_cont{
+    width: 90px;
+    height: 70px;
+    position: relative;
+    border: 1px solid #333333;
+    background-image: url('https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2019/07/hand-drawing-illustration-successful-concept_53876-36763-450x500.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: 300ms;
+}
+.menu .winner .img_cont:hover{
+    box-shadow: 3px 3px;
+    transform: translate(-3px,-3px);
+    transition: 300ms;
+}
+
+.svg{
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    z-index: 3;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000;
+    background: url('https://themes.estudiopatagon.com/wordpress/groovy/wp-content/themes/groovy/assets/images/number-decoration.svg');
+}
+.menu .winner .right{
+    display: flex;
+    flex-direction: column;
+}
+.right h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.right p {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+#img_cont2{
+    background-image: url("https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2019/08/light-bulb-creative-business-idea-symbol-held-by-hand_53876-127176-1-450x500.jpg");
+}
+#img_cont3{
+    background-image: url("https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2019/07/radio-concept-with-cassette-yellow-background_23-2148681171-450x500.jpg");
+}
+/* second section end */
+ul {
+    padding: 0 !important;
+}
+ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+ul li a {
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+}
+.sidebar_box {
+    display: inline-block;
+    border: 1px solid #333333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    transition: 300ms;
+}
+.sidebar_box:hover {
+    transition: 300ms;
+    box-shadow: 3px 3px;
+    transform: translate(-3px,-3px);
+
+}
+.sidebar_icon {
+    transform: translate(40%)
+}
+/* Third section end */
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #333333;
+}
+.hcircle {
+    background-color: #83ea6c;
+}
+.lfcircle {
+    background-color: #49dfd4;
+}
+.mscircle {
+    background-color: #ffcf00;
+}
+.tgcircle {
+    background-color: #85b2f4;
+}
+.trlcircle {
+    background-color:#c5c5fe ;
+}
+.vdcircle {
+    background-color: #fb0699;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333333;
+    padding: 0px 10px;
+    width: auto;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-top: 20px;
+    transition: 300ms;
+}
+.tag:hover{
+    transform: translate(-3px, -3px);
+    box-shadow: 2px 2px;
+    transition: 300ms;
+}
+.tag  p{
+    margin: 0 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
