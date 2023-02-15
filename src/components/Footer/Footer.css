@@ -1,0 +1,126 @@
+.footer_container {
+    background-color: bisque;
+    width: 100%;
+    height: auto;
+}
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+   
+    margin-top: 50px ;
+    
+    border-top: 2px solid #333333;
+  
+}
+.foot1 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    padding: 60px  30px;
+}
+.foot1 img {
+    width: 170px    
+}
+.foot1 p{
+    font-size: 14px;
+    color: #333333 !important;
+    line-height: 28px;
+}
+/* .foot2 { */
+    
+/* }*/
+#footer_follow{
+    position: relative;
+} 
+#footer_follow .about {
+    top: -63px;
+}
+#footer_recent{
+    position: relative;
+}
+#footer_recent .about {
+    top: -17px;
+}
+
+#footer_cloud{
+    position: relative;
+    padding: 40px 0;
+}
+#footer_cloud .about {
+    top: -17px;
+}
+.hr {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hr hr {
+    width: 80%;
+    height: 3px;
+    border: 1px solid black;
+    background-color: black;
+}
+#f_subscribe {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe_form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.subscribe_form h2 {
+    font-weight: bold;
+    font-size: 45px;
+    margin: 20px 0 40px;
+}
+.subscribe_form .input_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.subscribe_form .input_group input {
+    width: 505px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px;
+}
+.subscribe_form .input_group button {
+    position: absolute;
+    right: 50px;
+    padding: 10px 20px;
+    font-style: italic;
+    border-radius: 20px;
+    background-color: #ff4c60;
+    color: white;
+    border: 1px solid #333333;
+    transition: 300ms;
+    z-index: 12;
+   
+}
+.subscribe_form .input_group button:hover {
+    box-shadow: 3px 3px;
+    transform: translate(-3px, -3px);
+    transition: 300ms;
+}
+.subscribe_form img {
+    position: absolute;
+    top: 50px;
+    left: -100px;
+    width: 150px;
+    height: auto;
+}
+#f_subscribe p {
+    width: 400px;
+}

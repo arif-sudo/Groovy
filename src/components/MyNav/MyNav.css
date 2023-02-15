@@ -18,6 +18,19 @@
     padding: 25px 40px;
 
 }
+.item {
+    color: #333333 !important;
+    transition: 300ms;
+}
+.item:hover {
+    transform: translate(-2px,-2px);
+    transition: 300ms;
+}
+.login_icon {
+    color: purple;
+    font-size: 25px;
+    margin-left: 25px;
+}
 #toggle {
     border: 0;
 }

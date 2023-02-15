@@ -1,0 +1,65 @@
+.container {
+    margin-bottom: 100px;
+}
+.container h1 {
+    font-family: 'Philosopher';
+    font-size: 60px;
+    margin: 50px 0;
+}
+.login_hero {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    opacity: 0.6;
+    border: 5px solid #333333;
+    border-radius: 30px;
+}
+form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.username , .password{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.username label, .password label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit';
+    font-size: 30px;
+}
+.username input , .password input{
+    width: 400px;
+    padding: 10px 30px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+.login_btn {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_btn #btn {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #333333;
+    color: #333333;
+    font-size: 19px;
+    font-weight: bold;
+}
+.myicon {
+    color: black;
+}

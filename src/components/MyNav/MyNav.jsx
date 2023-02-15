@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import React from "react";
 import './MyNav.css'
-import { NavLink } from 'react-bootstrap';
+import { NavLink} from 'react-router-dom';
 
 const MyNav = () => {
   return (
@@ -24,7 +24,7 @@ const MyNav = () => {
             >
               <Offcanvas.Body>
                 <Nav className="nav_item fs-6 mx-auto ">
-                  <Nav.Link className='item mx-2' href="/home">Home</Nav.Link>
+                  <Nav.Link><NavLink className='item mx-2' to="/">Home</NavLink></Nav.Link>
                   <Nav.Link className='item mx-2' href="\">Header Styles</Nav.Link>
                   <Nav.Link className='item mx-2' href="\">Post Features</Nav.Link>
                   <Nav.Link className='item mx-2' href="\">#Tag</Nav.Link>
@@ -36,7 +36,7 @@ const MyNav = () => {
               </Offcanvas.Body>
             </Navbar.Offcanvas>
               <Nav.Item id='magnifying_glass_parent' ><i id='magnifying_glass' className="fa-solid fa-magnifying-glass"></i></Nav.Item>
-              <NavLink to='login'><i className="icon fa-solid fa-right-to-bracket"></i></NavLink>
+              <NavLink to='/login'><i className="login_icon fa-solid fa-right-to-bracket"></i></NavLink>
               <Nav className='mx-3'>
               <i className="icon fa-brands fa-facebook" id='facebook'></i>
               <i className="icon fa-brands fa-twitter" id='twitter'></i>

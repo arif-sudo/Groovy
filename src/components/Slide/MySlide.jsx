@@ -7,7 +7,7 @@ const MySlide = () => {
             <div id="carouselExampleDark" className="carousel carousel-fade carousel-dark slide my-5" data-bs-ride="carousel">
 
                 <div className="carousel-inner">
-                    <div className="carousel-item active" data-bs-interval={500000000}>
+                    <div className="carousel-item active" data-bs-interval={10000}>
                         <img src="https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2019/08/job253-gade-effect-scaled.jpg" className="carusel_image img-fluid" alt="..." />
                         <div className="tags">
                             <ul>
@@ -30,7 +30,7 @@ const MySlide = () => {
                     </div>
 
                     
-                    <div className="carousel-item" data-bs-interval={5000}>
+                    <div className="carousel-item" data-bs-interval={10000}>
                         <img src="https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2019/07/bright-pick-near-electric-guitar_23-2147781763.jpg" className="carusel_image img-fluid" alt="..." />
                         <div className="tags">
                             <ul>
@@ -53,7 +53,7 @@ const MySlide = () => {
                             <p>Continue reading <i className="fa-solid fa-arrow-right"></i> </p>
                         </div>
                     </div>
-                    <div className="carousel-item" data-bs-interval={5000}>
+                    <div className="carousel-item" data-bs-interval={10000}>
                         <img src="https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2019/07/various-types-pumpkins-arranged-height-food-gravity-concept-autumn-halloween-theme_492182-203-1-1080x600.jpg" className="carusel_image img-fluid" alt="..."  />
                         <div className="tags">
                             <ul>

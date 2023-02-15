@@ -1,13 +1,13 @@
 import React from 'react'
-import  MyNav  from '../components/MyNav/MyNav.jsx'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import { Container } from 'react-bootstrap'
-import MySlide from '../components/Slide/MySlide.jsx'
-import Grids from '../pages/Grids.jsx'
-import Login from '../pages/Login.jsx'
-import Home from '../pages/Home.jsx'
+import  MyNav  from '../components/MyNav/MyNav.jsx'
+import Login from '../pages/Login/Login.jsx'
 import { Provider } from 'react-redux'
 import { groovy } from '../index.jsx'
+import Home from '../pages/Home.jsx'
+import Dashboard from '../pages/Dashboard.jsx'
+
 
 const App = () => {
   return (
@@ -15,13 +15,13 @@ const App = () => {
       <Provider store={groovy}>
         <Container>
         <MyNav />
-        <MySlide />
-        <Grids />
           <Routes>
+            <Route path='/' element={<Home />}></Route>
             <Route path='/login' element={<Login />}></Route>
-            <Route path='/salam' element={<Home />}></Route>
+            <Route path='/dashboard' element={<Dashboard />}></Route>
           </Routes>
         </Container>
+        
         </Provider>
     </BrowserRouter>
   )
