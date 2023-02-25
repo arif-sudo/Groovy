@@ -18,7 +18,7 @@ const MyGrid = (props) => {
                     <div className="grid_date">{props.date} <div className="mx-2">|</div>2 min read</div>
                 </div>
 
-                <h1 className='mt-5 fs-1 fw-bold'>{props.title}</h1>
+                <h3 className='grid_title  fw-bold'>{props.title}</h3>
                 <p id='grid_p' className='mt-5'>{props.desc}</p>
                 <footer>
 

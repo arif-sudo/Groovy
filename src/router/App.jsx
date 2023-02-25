@@ -7,6 +7,7 @@ import { Provider } from 'react-redux'
 import { groovy } from '../index.jsx'
 import Home from '../pages/Home.jsx'
 import Dashboard from '../pages/Dashboard.jsx'
+import Footer from '../components/Footer/Footer.jsx'
 
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
             <Route path='/dashboard' element={<Dashboard />}></Route>
           </Routes>
         </Container>
-        
+        <Footer />
         </Provider>
     </BrowserRouter>
   )

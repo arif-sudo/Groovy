@@ -5,6 +5,7 @@ import configureStore from './myredux/store/store';
 import App from './router/App';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
+import './sass/style.scss'
 
 // const mystore = configureStore()
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import './MySlide.css'
+import slideproducts from './slideproducts'
+
 
 const MySlide = () => {
     return (
@@ -11,10 +13,20 @@ const MySlide = () => {
                         <img src="https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2019/08/job253-gade-effect-scaled.jpg" className="carusel_image img-fluid" alt="..." />
                         <div className="tags">
                             <ul>
-                                <li><div className="box2"></div><a href="/">Travel</a></li>
-                                <li><div className="box1"></div><a href="/">Lifestyle</a></li>
+                                {localStorage.getItem('lang') === 'en' 
+                                ?
+                                slideproducts.tags.en.map(item => (<li><div className="box2"></div><a href="/">{item.title}</a></li>)) 
+                                : 
+                                slideproducts.tags.az.map(item => (<li><div className="box1"></div><a href="/">{item.title}</a></li>)) }
                             </ul>
-                            <div className="date">February 14, 2023 <div className="mx-2">|</div> 2 min read</div>
+
+                            {localStorage.getItem('lang') === 'en' 
+                            ?
+                            slideproducts.date.en.map(item => (<div className="date">{item.title}{item.time}</div>))
+                            : 
+                            slideproducts.date.az.map(item => (<div className="date">{item.title}{item.time}</div>))
+                            
+                            }
                             <div className="logo">
                                 <img src="https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2023/01/avatar-1.jpg" alt="logo"/>
                                 <p>Jonathan Doe</p>
@@ -34,10 +46,19 @@ const MySlide = () => {
                         <img src="https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2019/07/bright-pick-near-electric-guitar_23-2147781763.jpg" className="carusel_image img-fluid" alt="..." />
                         <div className="tags">
                             <ul>
-                                <li><div className="box2"></div><a href="/">Travel</a></li>
-                                <li><div className="box1"></div><a href="/">Lifestyle</a></li>
+                            {localStorage.getItem('lang') === 'en' 
+                                ?
+                                slideproducts.tags.en.map(item => (<li><div className="box2"></div><a href="/">{item.title}</a></li>)) 
+                                : 
+                                slideproducts.tags.az.map(item => (<li><div className="box1"></div><a href="/">{item.title}</a></li>)) }
                             </ul>
-                            <div className="date">February 15, 2023 <div className="mx-2">|</div> 1 min read</div>
+                            {localStorage.getItem('lang') === 'en' 
+                            ?
+                            slideproducts.date.en.map(item => (<div className="date">{item.title}{item.time}</div>))
+                            : 
+                            slideproducts.date.az.map(item => (<div className="date">{item.title}{item.time}</div>))
+                            
+                            }
                             <div className="logo">
                                 <img src="https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2023/01/avatar-1.jpg" alt="logo"/>
                                 <p>Jonathan Doe</p>
@@ -57,11 +78,19 @@ const MySlide = () => {
                         <img src="https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2019/07/various-types-pumpkins-arranged-height-food-gravity-concept-autumn-halloween-theme_492182-203-1-1080x600.jpg" className="carusel_image img-fluid" alt="..."  />
                         <div className="tags">
                             <ul>
-                                <li><div className="box2"></div><a href="/">Travel</a></li>
-                                <li><div className="box1"></div><a href="/">Lifestyle</a></li>
+                            {localStorage.getItem('lang') === 'en' 
+                                ?
+                                slideproducts.tags.en.map(item => (<li><div className="box2"></div><a href="/">{item.title}</a></li>)) 
+                                : 
+                                slideproducts.tags.az.map(item => (<li><div className="box1"></div><a href="/">{item.title}</a></li>)) }
                             </ul>
-                            <div className="date">February 16, 2023 <div className="mx-2">|</div> 2 min read
-                            </div>
+                            {localStorage.getItem('lang') === 'en' 
+                            ?
+                            slideproducts.date.en.map(item => (<div className="date">{item.title}{item.time}</div>))
+                            : 
+                            slideproducts.date.az.map(item => (<div className="date">{item.title}{item.time}</div>))
+                            
+                            }
                             <div className="logo">
                                 <img src="https://themes.estudiopatagon.com/wordpress/groovy/wp-content/uploads/2023/01/avatar-1.jpg" alt="logo"/>
                                 <p>Jonathan Doe</p>
